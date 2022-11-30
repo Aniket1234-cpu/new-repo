@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    padding: 30px 250px 0 250px;
+    
+}
+
+.container .main .card1{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+ 
+}
+
+.container .main h2
+{ 
+    color: white;
+    background-color: red;
+    
+    text-align: center;
+    font-size:14px;
+    line-height: 26px;
+    border-radius:5px;
+}
+.container .main .card1 .img .wow{
+    height: 150px;
+    margin-top: 40px;
+}
+
+.main{
+    width:600px;
+    border: 1px black solid;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;  
+}
+.container .main .opp{
+    padding-left: 120px;
+}
+.container .main .opp img{
+    width: 35px;
+    position: relative;
+    top:10px
+}
+.container .main .opp h2{
+   color: black;
+   font-size: 3000px;
+}
+
+.container .main .opp span{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container .main .para h3{
+    color: black;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.container .main .para p{
+    max-width:260px;
+}
+
+.container .main .para a{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container .main .para button{
+    padding:12px 90px 12px 90px;
+    background-color:yellow;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.container .card2{
+    width: 280px;
+    position: relative;
+    top: 85px;
+}
+
+.container .card2 .lb2{
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size:10px;
+    line-height: 26px;
+    border-radius:5px;
+}
+
+.container .card2 h3{
+    text-align: center;
+    font-weight:300;
+}
+.container .card2 h1{
+    text-align: center;
+    color: green;
+    font-weight: 700;
+}
+.container .card2 h6{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container .card2 .im{
+    display: flex;
+    align-items: center;
+}
